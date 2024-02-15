@@ -18,9 +18,9 @@ public class Main {
         System.out.println("Your computer science grade: ");
         computerscience = inp.nextInt();
 
-        int toplam = (calculus + physics + programming + computerscience);
-        double sonuc = toplam / 4.0;
-        System.out.println("Your average: " + sonuc);
+        int sum = (calculus + physics + programming + computerscience);
+        double result = toplam / 4.0;
+        System.out.println("Your average: " + result);
 
 
 
